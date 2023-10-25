@@ -45,7 +45,7 @@
     </target>
 
     <!-- Deploy the unpackaged set of metadata retrieved with retrieveUnpackaged and run tests in this organization's namespace only-->
-    <target name="deploy">
+    <target name="deploy" depends="retrieve">
       <sf:deploy username="${sf.username2}" password="${sf.password2}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="fetchedData" rollbackOnError="true"/>
     </target>
 
