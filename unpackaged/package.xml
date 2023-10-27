@@ -8,32 +8,5 @@
         <members>*</members>
         <name>ApexTrigger</name>
     </types>
-	<types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
-	
-	<types>
-        <members>*</members>
-        <name>PermissionSet</name>
-    </types>
-	<types>
-        <members>Invoice_Line_Item__c</members> 
-		<members>Invoice__c</members>
-		<members>children__c</members>
-        <name>CustomObject</name>
-    </types>
-	<types>
-        <members>SFDC_Dashboards</members> 
-		<members>SFDC_Dashboards/RMcvJsaPrqmLvJOgIkzggBhNTdZkcB</members>
-        <name>Dashboard</name>	
-    </types>
-	<types>
-        <members>SFDC_report</members> 
-		<members>SFDC_report/Acc_report_caD</members>
-		<members>SFDC_report/Opp_report_hhp</members>
-        <name>Report</name>	
-    </types>
-	
     <version>58.0</version>
 </Package>
